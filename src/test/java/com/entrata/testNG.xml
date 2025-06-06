@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Entrata Test Suite">
+    <test name="Entrata Basic Functionalities">
+        <classes>
+            <class name="com.entrata.tests.VerifyApplicationLaunchTest"/>
+            <class name="com.entrata.tests.HeadersFunctionality"/>
+            <class name="com.entrata.tests.InteractWithFirstProductAndFillForm"/>
+            <class name="com.entrata.tests.VerifyBusinessSuitesNavigation"/>
+            <class name="com.entrata.tests.VerifyFooterLinks"/>
+        </classes>
+    </test>
+</suite>
