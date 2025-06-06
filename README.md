@@ -30,23 +30,23 @@ This project is a comprehensive Selenium-based automation framework designed to 
 
 ## Project Structure
 Entrata_Automation/
-├── logs/ # Log files (auto-generated)
-├── reports/ # HTML test reports (auto-generated)
-├── screenshots/ # Screenshots for failed tests
+├── logs/                     # Log files (auto-generated)
+├── reports/                  # HTML test reports (auto-generated)
+├── screenshots/              # Screenshots for failed tests
 ├── src/
-│ ├── main/ # Common reusable code (if any)
-│ └── test/
-│ ├── java/
-│ │ └── com/entrata/
-│ │ ├── pages/ # Page Object classes
-│ │ ├── tests/ # Test classes
-│ │ └── Utilities/ # Logger, Screenshot, etc.
-│ └── resources/
-│ └── log4j2.xml # Logging configuration
-├── .gitignore # Git ignored files and folders
-├── pom.xml # Maven build file
-└── testNG.xml # TestNG test suite configuration
-
+│   ├── main/                 # Common reusable code (if any)
+│   └── test/
+│       ├── java/
+│       │   └── com/
+│       │       └── entrata/
+│       │           ├── pages/       # Page Object classes
+│       │           ├── tests/       # Test classes
+│       │           └── Utilities/   # Logger, Screenshot, etc.
+│       └── resources/
+│           └── log4j2.xml           # Logging configuration
+├── .gitignore               # Git ignored files and folders
+├── pom.xml                 # Maven build configuration
+└── testNG.xml              # TestNG test suite configuration
 ## Prerequisites
 
 - Java 11 or higher
