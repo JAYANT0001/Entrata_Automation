@@ -37,23 +37,22 @@ This project is a comprehensive **Selenium-based automation framework** designed
 Entrata_Automation/
 │
 ├── logs/ # Log files (auto-generated)
-├── reports/ # HTML test reports (auto-generated)
-├── screenshots/ # Screenshots for failed tests
+├── reports/ # ExtentReports output (auto-generated)
+├── screenshots/ # Failure screenshots
 ├── src/
-│ ├── main/ # Common reusable code (if any)
+│ ├── main/ # Common reusable utilities (if any)
 │ └── test/
 │ ├── java/
-│ │ └── com/entrata/
-│ │ ├── pages/ # Page Object classes
-│ │ ├── tests/ # Test classes
-│ │ └── Utilities/ # Logger, Screenshot, etc.
+│ │ └── com.entrata/
+│ │ ├── pages/ # Page Object Model classes
+│ │ ├── tests/ # Test classes (TestNG)
+│ │ └── Utilities/ # Logger, Screenshot utils, etc.
 │ └── resources/
-│ └── log4j2.xml # Logging configuration
+│ └── log4j2.xml # Log4j2 config file
 │
-├── .gitignore # Git ignored files and folders
-├── pom.xml # Maven build file
-└── testNG.xml # TestNG test suite configuration
-
+├── .gitignore # Files/folders ignored by Git
+├── pom.xml # Maven dependencies & plugins
+└── testNG.xml # TestNG suite configuration
 yaml
 Copy
 Edit
@@ -105,8 +104,7 @@ ExtentReports for HTML reporting
 
 Page Object Model (POM) for test design
 
-🤝 Contribution
-Want to contribute? Fork this repository and submit a pull request with enhancements, bug fixes, or improvements. All contributions are welcome!
+
 
 📬 Contact
 Jayant Pawar
